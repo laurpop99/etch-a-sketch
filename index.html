@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .white
+        {
+            background: white;
+        }
+    
+        body{
+            margin: 0;
+        }
+        #header{
+            display:grid;
+            justify-content: center;
+            
+        }
+        #container{
+            display: grid;
+            grid-template-columns: repeat(16, auto);
+            grid-template-rows: repeat(16, 6vh);
+            align-content: stretch;
+            
+            
+            
+        }
+        .box{
+            
+            border: 1px solid black;
+            
+            display: inline-block;
+           
+        }
+        
+    </style>
+    <div id="header"></div>
+    <div id="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
